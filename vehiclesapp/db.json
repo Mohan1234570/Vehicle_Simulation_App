@@ -1,0 +1,19 @@
+{
+  "scenarios": [
+    {
+      "id": "b589",
+      "name": "Test Scenario",
+      "time": "10"
+    }
+  ],
+  "vehicles": [
+    {
+      "id": "4b40",
+      "name": "Bus",
+      "positionX": "20",
+      "positionY": "30",
+      "speed": "20",
+      "direction": "Upwards"
+    }
+  ]
+}
