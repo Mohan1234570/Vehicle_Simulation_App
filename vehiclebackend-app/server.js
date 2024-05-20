@@ -4,10 +4,13 @@ const bodyParser = require('body-parser');
 const cors = require('cors');
 const fs = require('fs');
 const app = express();
+const path = require('path');
 const PORT = 5000;
 
 app.use(bodyParser.json());
 app.use(cors());
+
+app.use(express.static(path.join(__dirname, 'public')));
 
 const DATA_FILE = 'data.json';
 
