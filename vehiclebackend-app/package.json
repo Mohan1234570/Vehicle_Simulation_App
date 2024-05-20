@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "nodemon server.js"
+    "start": "nodemon server.js",
+    "build": "cd ../vehiclesapp && npm install && npm run build && cp -r build/* ../vehiclebackend-app/public/"
   },
   "author": "mohan",
   "license": "ISC",
